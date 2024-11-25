@@ -1,0 +1,91 @@
+/* Media Queries for Responsive Design */
+
+/* For Large Devices (Desktops: 1200px and up) */
+@media (min-width: 1200px) {
+    .container h1 {
+      font-size: 3rem;
+    }
+    .row img {
+      max-width: 500px;
+      height: auto;
+    }
+  }
+  
+  /* For Medium Devices (Tablets: 992px to 1199px) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    .row img {
+      max-width: 450px;
+      height: auto;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* For Small Devices (Tablets and Smaller Screens: 768px to 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .row {
+      flex-direction: column;
+      text-align: center;
+    }
+    .row img {
+      max-width: 400px;
+      margin: 0 auto 20px auto;
+    }
+    p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* For Extra Small Devices (Mobiles: 576px to 767px) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .row img {
+      max-width: 100%;
+      margin: 0 auto 20px auto;
+    }
+    p {
+      font-size: 0.9rem;
+      text-align: justify;
+    }
+    footer {
+      text-align: center;
+    }
+  }
+  
+  /* For Very Small Devices (Mobiles: Less than 576px) */
+  @media (max-width: 575px) {
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .row {
+      flex-direction: column;
+      text-align: center;
+    }
+    .row img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto 20px auto;
+    }
+    p {
+      font-size: 0.85rem;
+      text-align: justify;
+      margin: 10px 15px;
+    }
+    footer {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
+  

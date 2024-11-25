@@ -1,0 +1,93 @@
+/* For mobile (up to 768px) */
+@media (max-width: 768px) {
+    /* Adjust navbar items */
+    .navbar-nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .navbar-nav .nav-item {
+      margin: 0 10px;
+    }
+  
+    /* Social icons */
+    .navbar-brand {
+      display: block;
+      margin: 0 5px;
+    }
+  
+    .social-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  /* For smaller screens (up to 480px) */
+  @media (max-width: 480px) {
+    .navbar-nav {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 15px;
+    }
+  
+    /* Social icons adjustments */
+    .navbar-brand {
+      margin: 0 3px;
+    }
+  
+    .social-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  /* Enhanced Navbar CSS */
+.navbar {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+    color: white !important;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ffd700 !important;
+  }
+  
+  .social-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .social-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  

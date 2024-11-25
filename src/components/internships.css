@@ -1,0 +1,78 @@
+/* Media Query for Small Screens (phones, <576px) */
+@media (max-width: 575.98px) {
+    h1, h3 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 14px;
+    }
+  
+    .card {
+      margin: 10px 0;
+    }
+  
+    .footer {
+      font-size: 12px;
+    }
+  
+    .dropdown {
+      float: none;
+      margin: 10px auto;
+    }
+  }
+  
+  /* Media Query for Medium Screens (tablets, 576px–767px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    h1, h3 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .navbar-brand {
+      font-size: 22px;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 16px;
+    }
+  
+    .card {
+      margin: 15px 0;
+    }
+  
+    .dropdown {
+      float: none;
+      margin: 10px auto;
+    }
+  }
+  
+  /* Media Query for Large Screens (desktops, >1200px) */
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .navbar-brand {
+      font-size: 26px;
+    }
+  
+    .card {
+      margin: 20px;
+    }
+  
+    .dropdown {
+      float: right;
+      margin: 10px 50px;
+    }
+  
+    .footer {
+      font-size: 16px;
+    }
+  }
+  
